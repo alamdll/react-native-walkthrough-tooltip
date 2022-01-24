@@ -126,6 +126,9 @@ declare module 'react-native-walkthrough-tooltip' {
 
     /** Will use given component instead of default react-native Modal component **/
     modalComponent?: object;
+
+    /** Disable modal on close function for astro requirements */
+    disableModalOnClose?: boolean;
   }
 
   /**
